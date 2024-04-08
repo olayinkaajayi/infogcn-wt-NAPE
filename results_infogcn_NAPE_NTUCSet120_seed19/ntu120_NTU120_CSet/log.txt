@@ -1,0 +1,78 @@
+[ Thu Mar 21 00:51:44 2024 ] using warm up, epoch: 5
+[ Thu Mar 21 00:58:37 2024 ] using warm up, epoch: 5
+[ Thu Mar 21 01:12:20 2024 ] using warm up, epoch: 5
+[ Thu Mar 21 01:12:35 2024 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 120, 'dataset': 'ntu120', 'datacase': 'NTU120_CSet', 'use_vel': False, 'phase': 'train', 'save_score': False, 'avg_best_acc': False, 'seed': 19, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 1, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 4, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'PE_name': 'checkpoint_betaNAPE_ntu-sb.pt', 'model_name': 'infogcn_NAPE_NTUCSet120_seed19', 'model_names_file': 'model_names.txt', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 2, 'test_batch_size': 2, 'start_epoch': 0, 'num_epoch': 5, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'count_flop': False, 'flops_filename': 'paper_infogcn_bwd_FLOPs.txt', 'work_dir': 'results_infogcn_NAPE_NTUCSet120_seed19/ntu120_NTU120_CSet'}
+
+[ Thu Mar 21 01:12:35 2024 ] # Parameters: 1570627
+[ Thu Mar 21 01:12:35 2024 ] Training epoch: 1
+[ Thu Mar 21 02:21:12 2024 ] using warm up, epoch: 5
+[ Thu Mar 21 02:21:25 2024 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 120, 'dataset': 'ntu120', 'datacase': 'NTU120_CSet', 'use_vel': False, 'phase': 'train', 'save_score': False, 'avg_best_acc': False, 'seed': 19, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 5, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 4, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'PE_name': 'checkpoint_betaNAPE_ntu-sb.pt', 'model_name': 'infogcn_NAPE_NTUCSet120_seed19', 'model_names_file': 'model_names.txt', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 4, 'test_batch_size': 4, 'start_epoch': 0, 'num_epoch': 8, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'count_flop': False, 'flops_filename': 'paper_infogcn_bwd_FLOPs.txt', 'work_dir': 'results_infogcn_NAPE_NTUCSet120_seed19/ntu120_NTU120_CSet'}
+
+[ Thu Mar 21 02:21:25 2024 ] # Parameters: 1570627
+[ Thu Mar 21 02:21:25 2024 ] Training epoch: 1
+[ Thu Mar 21 02:51:03 2024 ] 	Training loss: 5.3370.  Training acc: 0.81%.
+[ Thu Mar 21 02:51:03 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Mar 21 02:51:03 2024 ] Eval epoch: 1
+[ Thu Mar 21 02:59:55 2024 ] 	Mean test loss of 10000 batches: 4.821039.
+[ Thu Mar 21 02:59:56 2024 ] 	Top1: 0.85%
+[ Thu Mar 21 02:59:56 2024 ] 	Top5: 4.23%
+[ Thu Mar 21 02:59:57 2024 ] Training epoch: 2
+[ Thu Mar 21 03:26:38 2024 ] 	Training loss: 5.2096.  Training acc: 0.86%.
+[ Thu Mar 21 03:26:38 2024 ] 	Time consumption: [Data]00%, [Network]99%
+[ Thu Mar 21 03:26:38 2024 ] Eval epoch: 2
+[ Thu Mar 21 03:35:32 2024 ] 	Mean test loss of 10000 batches: 4.988278.
+[ Thu Mar 21 03:35:32 2024 ] 	Top1: 0.85%
+[ Thu Mar 21 03:35:32 2024 ] 	Top5: 4.11%
+[ Thu Mar 21 03:35:33 2024 ] Training epoch: 3
+[ Thu Mar 21 04:02:21 2024 ] 	Training loss: 5.3461.  Training acc: 0.86%.
+[ Thu Mar 21 04:02:21 2024 ] 	Time consumption: [Data]00%, [Network]99%
+[ Thu Mar 21 04:02:21 2024 ] Eval epoch: 3
+[ Thu Mar 21 04:11:14 2024 ] 	Mean test loss of 10000 batches: 4.982074.
+[ Thu Mar 21 04:11:14 2024 ] 	Top1: 0.84%
+[ Thu Mar 21 04:11:15 2024 ] 	Top5: 4.19%
+[ Thu Mar 21 04:11:15 2024 ] Training epoch: 4
+[ Thu Mar 21 04:38:07 2024 ] 	Training loss: 5.4874.  Training acc: 0.89%.
+[ Thu Mar 21 04:38:07 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Mar 21 04:38:07 2024 ] Eval epoch: 4
+[ Thu Mar 21 04:47:03 2024 ] 	Mean test loss of 10000 batches: 5.229108.
+[ Thu Mar 21 04:47:03 2024 ] 	Top1: 0.82%
+[ Thu Mar 21 04:47:03 2024 ] 	Top5: 4.19%
+[ Thu Mar 21 04:47:04 2024 ] Training epoch: 5
+[ Thu Mar 21 05:13:56 2024 ] 	Training loss: 5.6527.  Training acc: 0.81%.
+[ Thu Mar 21 05:13:56 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Mar 21 05:13:56 2024 ] Eval epoch: 5
+[ Thu Mar 21 05:22:51 2024 ] 	Mean test loss of 10000 batches: 5.478246.
+[ Thu Mar 21 05:22:51 2024 ] 	Top1: 0.82%
+[ Thu Mar 21 05:22:51 2024 ] 	Top5: 4.15%
+[ Thu Mar 21 05:22:52 2024 ] Training epoch: 6
+[ Thu Mar 21 05:49:33 2024 ] 	Training loss: 5.6467.  Training acc: 0.82%.
+[ Thu Mar 21 05:49:33 2024 ] 	Time consumption: [Data]00%, [Network]99%
+[ Thu Mar 21 05:49:33 2024 ] Eval epoch: 6
+[ Thu Mar 21 05:58:26 2024 ] 	Mean test loss of 10000 batches: 5.259988.
+[ Thu Mar 21 05:58:26 2024 ] 	Top1: 0.84%
+[ Thu Mar 21 05:58:26 2024 ] 	Top5: 4.16%
+[ Thu Mar 21 05:58:26 2024 ] Training epoch: 7
+[ Thu Mar 21 06:25:09 2024 ] 	Training loss: 5.6481.  Training acc: 0.87%.
+[ Thu Mar 21 06:25:09 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Mar 21 06:25:09 2024 ] Eval epoch: 7
+[ Thu Mar 21 06:34:03 2024 ] 	Mean test loss of 10000 batches: 5.687363.
+[ Thu Mar 21 06:34:03 2024 ] 	Top1: 0.83%
+[ Thu Mar 21 06:34:03 2024 ] 	Top5: 4.15%
+[ Thu Mar 21 06:34:04 2024 ] Training epoch: 8
+[ Thu Mar 21 07:00:43 2024 ] 	Training loss: 5.6443.  Training acc: 0.88%.
+[ Thu Mar 21 07:00:43 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Thu Mar 21 07:00:43 2024 ] Eval epoch: 8
+[ Thu Mar 21 07:09:36 2024 ] 	Mean test loss of 10000 batches: 5.163810.
+[ Thu Mar 21 07:09:36 2024 ] 	Top1: 0.82%
+[ Thu Mar 21 07:09:36 2024 ] 	Top5: 4.13%
+[ Thu Mar 21 07:18:39 2024 ] Best accuracy: 0.008473863846528911
+[ Thu Mar 21 07:18:39 2024 ] Epoch number: 1
+[ Thu Mar 21 07:18:39 2024 ] Model name: results_infogcn_NAPE_NTUCSet120_seed19/ntu120_NTU120_CSet
+[ Thu Mar 21 07:18:39 2024 ] Model total number of params: 1570627
+[ Thu Mar 21 07:18:39 2024 ] Weight decay: 0.0005
+[ Thu Mar 21 07:18:39 2024 ] Base LR: 0.1
+[ Thu Mar 21 07:18:39 2024 ] Batch Size: 4
+[ Thu Mar 21 07:18:39 2024 ] Test Batch Size: 4
+[ Thu Mar 21 07:18:39 2024 ] seed: 19
