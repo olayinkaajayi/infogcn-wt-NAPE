@@ -1,2 +1,0 @@
-[ Thu Mar 21 00:51:16 2024 ] using warm up, epoch: 5
-[ Thu Mar 21 00:58:38 2024 ] using warm up, epoch: 5

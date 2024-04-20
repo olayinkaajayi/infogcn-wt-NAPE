@@ -10,8 +10,9 @@ import pickle
 import random
 import traceback
 import resource
-codes = '/dcs/pg20/u2034358/codes' #path to codes folder
-sys.path.append(codes+"/DHCS_implement/models/Positional_encoding")
+
+from pathlib import Path
+sys.path.append(f"{Path.home()}/codes/NAPE-wt-node2vec/src")
 
 from collections import OrderedDict
 
@@ -550,9 +551,9 @@ def main():
     else:
 
         # Added these lines
-        if not osp.exists(os.path.join(codes,'infogcn_tenX')):
-            os.mkdir(os.path.join(codes,'infogcn_tenX'))
-        writer = SummaryWriter(os.path.join(codes,'infogcn_tenX',arg.model_name))
+        if not osp.exists(os.path.join(f"{Path.home()}/codes",'infogcn_tenX')):
+            os.mkdir(os.path.join(f"{Path.home()}/codes",'infogcn_tenX'))
+        writer = SummaryWriter(os.path.join(f"{Path.home()}/codes",'infogcn_tenX',arg.model_name))
         # Addition ends here
 
         arg.work_dir = f"results_{arg.model_name}/{arg.dataset}_{arg.datacase}"

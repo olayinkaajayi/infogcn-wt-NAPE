@@ -5,3 +5,7 @@ __pycache__
 *ipynb
 *.pt
 *.yaml
+*.err
+*.out
+results_*
+*.sbatch
